@@ -1,5 +1,7 @@
 package baekjoon;
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 import java.util.StringTokenizer;
 public class Top2493Solution {
@@ -23,6 +25,7 @@ public class Top2493Solution {
     }
 
     public static void main(String[] args) throws Exception, IOException {
+        List<String> strings = new ArrayList<>();
         Stack<LightHouse> st = new Stack<>();
         // BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File("2493.txt"))));
